@@ -3,9 +3,16 @@
 	<VirtualDirectory Name="src">
 		<VirtualDirectory Name="src">
 			<File Name="src/Main.cpp"/>
+			<File Name="src/creature.cpp"/>
+			<File Name="src/point2D.cpp"/>
 		</VirtualDirectory>
 	</VirtualDirectory>
-	<VirtualDirectory Name="include"/>
+	<VirtualDirectory Name="include">
+		<VirtualDirectory Name="src">
+			<File Name="src/creature.hpp"/>
+			<File Name="src/point2D.hpp"/>
+		</VirtualDirectory>
+	</VirtualDirectory>
 	<Settings Type="">
 		<Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
 			<Compiler Options="-g" Required="yes" PreCompiledHeader="">
